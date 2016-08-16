@@ -1,31 +1,25 @@
 body
 {
 	color: white;
-	background: rgba(255,255,255);
-	background: -moz-linear-gradient(left, rgba(255,255,255) 0%, rgba(32,124,229,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255)), color-stop(100%, rgba(32,124,229,1)));
-	background: -webkit-linear-gradient(left, rgba(255,255,255) 0%, rgba(32,124,229,1) 100%);
-	background: -o-linear-gradient(left, rgba(255,255,255) 0%, rgba(32,124,229,1) 100%);
-	background: -ms-linear-gradient(left, rgba(255,255,255) 0%, rgba(32,124,229,1) 100%);
-	background: linear-gradient(to right, rgba(255,255,255) 0%, rgba(32,124,229,1) 100%);
+	font-family: Arial;
+	background: rgba(73,155,234,1);
+	background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+	background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+	background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
 }
 
-#caja_2, #accion
+#caja_1, #caja_2, #accion
 {
 	margin: 5px;
 	font-size: 25px;
 	text-align: center;
-	width: 35%;
+	width: 80%;
 }
 
-#caja_1
-{
-	margin: 5px;
-	font-size: 25px;
-	text-align: center;
-	width: 60%;
-}
 .esTabla
 {
 	margin-top: 10px;
@@ -34,10 +28,10 @@ body
 	padding-bottom: 30px;
 	color: black;
 	background-color: white;
-	width: 60%;
-	border: 3px solid gray;
+	width: 80%;
+	border: 3px solid black;
 	border-radius: 15px;
-	font-size: 25px;
+	font-size: 20px;
 	white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
    	white-space: -pre-wrap;      /* Opera 4-6 */
    	white-space: -o-pre-wrap;    /* Opera 7 */
